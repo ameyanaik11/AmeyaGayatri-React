@@ -92,7 +92,7 @@ const Home = (props) => {
         <div className="heroContainer home-hero1">
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
-              John and Emily&apos;s Wedding
+              Ameya and Gayatri&apos;s Wedding
             </h1>
             <span className="home-hero-sub-heading bodyLarge">
               <span>
