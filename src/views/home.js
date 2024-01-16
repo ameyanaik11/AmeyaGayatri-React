@@ -2,8 +2,6 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import FeatureCard from '../components/feature-card'
-import Question1 from '../components/question1'
 import './home.css'
 
 const Home = (props) => {
@@ -18,19 +16,9 @@ const Home = (props) => {
           data-thq="thq-navbar"
           className="navbarContainer home-navbar-interactive"
         >
-          <span className="logo">WEDDING</span>
+          <span className="logo">#Gameyatri</span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
-            <nav className="home-links">
-              <span className="home-nav12 bodySmall">Home</span>
-              <span className="home-nav2 bodySmall">About</span>
-              <span className="home-nav3 bodySmall">Date and Time</span>
-              <span className="home-nav4 bodySmall">Venue</span>
-              <span className="home-nav5 bodySmall">Events</span>
-            </nav>
-            <div className="home-buttons">
-              <button className="home-login buttonFlat">Login</button>
-              <button className="buttonFilled">Register</button>
-            </div>
+            <div className="home-buttons"></div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon socialIcons">
@@ -53,12 +41,12 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <nav className="home-links1">
-                <span>Home</span>
-                <span className="home-nav21 bodySmall">About</span>
-                <span className="home-nav31 bodySmall">Date and Time</span>
-                <span className="home-nav41 bodySmall">Venue</span>
-                <span className="home-nav51 bodySmall">Events</span>
+              <nav className="home-links">
+                <span className="home-nav1 bodySmall">Home</span>
+                <span className="home-nav2 bodySmall">About</span>
+                <span className="home-nav3 bodySmall">Date and Time</span>
+                <span className="home-nav4 bodySmall">Venue</span>
+                <span className="home-nav5 bodySmall">Events</span>
               </nav>
               <div className="home-buttons1">
                 <button className="buttonFlat">Login</button>
@@ -89,78 +77,14 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-hero">
-        <div className="heroContainer home-hero1">
-          <div className="home-container01">
-            <h1 className="home-hero-heading heading1">
-              Ameya and Gayatri&apos;s Wedding
-            </h1>
-            <span className="home-hero-sub-heading bodyLarge">
-              <span>
-                <span>
-                  <span>A celebration of love</span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
+        <div className="home-container1">
+          <div className="home-container2">
+            <h1 className="home-hero-heading">AMEYA &amp; GAYATRI</h1>
+            <span className="home-hero-sub-heading">
+              Feb 24, 2024, 12:00 PM | Baner, Pune
             </span>
             <div className="home-btn-group">
-              <button className="buttonFilled">RSVP Now</button>
-              <button className="buttonFlat">Learn More →</button>
+              <button className="home-hero-button1 buttonFilled">RSVP</button>
             </div>
           </div>
         </div>
@@ -168,376 +92,214 @@ const Home = (props) => {
       <div className="home-features">
         <div className="featuresContainer">
           <div className="home-features1">
-            <div className="home-container02">
-              <span className="overline">
-                <span>features</span>
-                <br></br>
-              </span>
-              <h2 className="home-features-heading heading2">
-                Celebrate Love with Us
-              </h2>
+            <div className="home-container3">
+              <h2 className="home-features-heading heading2">THE WEDDING</h2>
               <span className="home-features-sub-heading bodyLarge">
                 <span>
-                  <span>
-                    <span>
-                      Join us for a joyous occasion filled with love and
-                      happiness
-                    </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
-                  <span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
+                  Join us for a joyous occasion filled with love and happiness
+                </span>
+                <br></br>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
                 </span>
                 <span>
-                  <span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
-                  <span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
                 </span>
               </span>
             </div>
-            <div className="home-container03">
-              <FeatureCard
-                Heading="Name of Groom, Bride"
-                SubHeading="Get to know the couple who are tying the knot"
-              ></FeatureCard>
-              <FeatureCard
-                Heading="Date and Time"
-                SubHeading="Mark your calendar for this special day"
-              ></FeatureCard>
-              <FeatureCard
-                Heading="Venue"
-                SubHeading="Discover the beautiful location where the wedding will take place"
-              ></FeatureCard>
-              <FeatureCard
-                Heading="Timeline of Events"
-                SubHeading="Find out what to expect during the wedding celebration"
-              ></FeatureCard>
+            <div className="home-container4">
+              <div className="freePricingCard home-pricing-card">
+                <div className="home-container5">
+                  <span className="home-text09 heading3">WHEN</span>
+                  <span className="bodySmall">Feb 24, 2024 12:00 PM</span>
+                </div>
+              </div>
+              <div className="basicPricingCard home-pricing-card1">
+                <div className="home-container6">
+                  <span className="home-text10 heading3">WHERE</span>
+                  <span>
+                    <span>Buntara Bhavana Banquet Hall,</span>
+                    <br></br>
+                    <br></br>
+                    <span>
+                      <span>
+                        Near Mercedes Showroom
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                    <br></br>
+                    <span>
+                      <span>
+                        Mumbai-Bangalore Highway,
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                    <br></br>
+                    <span>Baner, Pune 411045</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.218822142188!2d73.7666708!3d18.5641709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2beb4661cc46b%3A0x5ae30f3f48937359!2sBuntara%20Bhavana%20Banquet%20Hall%20and%20Auditorium%20in%20Pune!5e0!3m2!1sen!2sus!4v1705444024387!5m2!1sen!2sus"
+                  className="home-iframe"
+                ></iframe>
+                <a
+                  href="https://maps.app.goo.gl/sBi1RLNhiX4adZyYA"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link buttonFilledSecondary"
+                >
+                  <span>
+                    <span>Google Maps</span>
+                    <br></br>
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="home-pricing">
-        <div className="pricingContainer">
-          <div className="home-container04">
-            <span className="overline">
-              <span>Pricing</span>
-              <br></br>
-            </span>
-            <h2 className="heading2">
-              Choose the Perfect Plan for Your Wedding
-            </h2>
-            <span className="home-pricing-sub-heading bodyLarge">
-              <span>
-                <span>
-                  Make your special day unforgettable with our flexible pricing
-                  options.
-                </span>
-              </span>
-            </span>
-          </div>
-          <div className="home-container05">
-            <div className="freePricingCard home-pricing-card">
-              <div className="home-container06">
-                <span className="home-text36 heading3">Free</span>
-                <span className="bodySmall">Access to basic features</span>
-              </div>
-              <div className="home-container07">
-                <span className="home-text37">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-free-plan-price">0</span>
-              </div>
-              <div className="home-container08">
-                <div className="home-container09">
-                  <span className="home-text40">✔</span>
-                  <span className="bodySmall">Limited guest list</span>
-                </div>
-                <div className="home-container10">
-                  <span className="home-text41">✔</span>
-                  <span className="bodySmall">Basic decoration</span>
-                </div>
-                <div className="home-container11">
-                  <span className="home-text42">✔</span>
-                  <span className="bodySmall">Standard photography</span>
-                </div>
-                <div className="home-container12">
-                  <span className="home-text43">✔</span>
-                  <span className="bodySmall">No customization options</span>
-                </div>
-              </div>
-              <button className="home-button buttonOutline">
-                Continue with Free
-              </button>
-            </div>
-            <div className="basicPricingCard home-pricing-card1">
-              <div className="home-container13">
-                <span className="home-text44 heading3">BASIC</span>
-                <span className="bodySmall">Access to essential features</span>
-              </div>
-              <div className="home-container14">
-                <span className="home-text45">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-basic-plan-pricing">100</span>
-                <span className="home-text48">/ month</span>
-              </div>
-              <div className="home-container15">
-                <div className="home-container16">
-                  <span className="home-text49">✔</span>
-                  <span className="bodySmall">All features of FREE plan</span>
-                </div>
-                <div className="home-container17">
-                  <span className="home-text51">✔</span>
-                  <span className="bodySmall">Medium-sized guest list</span>
-                </div>
-                <div className="home-container18">
-                  <span className="home-text52">✔</span>
-                  <span className="bodySmall">Standard decoration</span>
-                </div>
-                <div className="home-container19">
-                  <span className="home-text53">✔</span>
-                  <span className="bodySmall">Professional photography</span>
-                </div>
-                <div className="home-container20">
-                  <span className="home-text54">✔</span>
-                  <span className="bodySmall">
-                    Limited customization options
-                  </span>
-                </div>
-              </div>
-              <button className="home-button1 buttonFilledSecondary">
-                Try the Basic plan
-              </button>
-            </div>
-            <div className="proPricingCard home-pricing-card2">
-              <div className="home-container21">
-                <span className="home-text55 heading3">
-                  <span>PRO</span>
-                  <br></br>
-                </span>
-                <span className="bodySmall">Access to premium features</span>
-              </div>
-              <div className="home-container22">
-                <span className="home-text58">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-pro-plan-pricing">250</span>
-                <span className="home-text61">/ month</span>
-              </div>
-              <div className="home-container23">
-                <div className="home-container24">
-                  <span className="home-text62">✔</span>
-                  <span className="bodySmall"> All features of BASIC plan</span>
-                </div>
-                <div className="home-container25">
-                  <span className="home-text64">✔</span>
-                  <span className="bodySmall">Large guest list</span>
-                </div>
-                <div className="home-container26">
-                  <span className="home-text65">✔</span>
-                  <span className="bodySmall">Premium decoration</span>
-                </div>
-                <div className="home-container27">
-                  <span className="home-text66">✔</span>
-                  <span className="bodySmall">
-                    Professional photography and videography
-                  </span>
-                </div>
-                <div className="home-container28">
-                  <span className="home-text67">✔</span>
-                  <span className="bodySmall">Full customization options</span>
-                </div>
-              </div>
-              <button className="home-button2 buttonFilledSecondary">
-                Try the PRO plan
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="home-pricing"></div>
       <div className="home-banner">
         <div className="bannerContainer home-banner1">
           <h1 className="home-banner-heading heading2">Save the Date</h1>
           <span className="home-banner-sub-heading bodySmall">
             <span>
-              <span>
-                <span>
-                  Join us as we celebrate the union of John and Emily on their
-                  special day. We invite you to witness their love and share in
-                  their joy.
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
+              Join us as we celebrate the union of Ameya and Gayatri on their
+              special day. We invite you to witness their love and share in
+              their joy.
             </span>
             <span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </span>
           </span>
-          <button className="buttonFilled">Learn More</button>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScdMbV9qrn4U4UgIDbenF6QMgzszX98VgJILi3A_D-tZddE6Q/viewform?embedded=true"
+            className="home-iframe1"
+          ></iframe>
         </div>
       </div>
       <div className="home-faq">
-        <div className="faqContainer">
-          <div className="home-faq1">
-            <div className="home-container29">
-              <span className="overline">
-                <span>FAQ</span>
-                <br></br>
-              </span>
-              <h2 className="home-text85 heading2">Common questions</h2>
-              <span className="home-text86 bodyLarge">
-                <span>
-                  Here are some of the most common questions that we get.
-                </span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-container30">
-              <Question1
-                Answer="The names of the groom and bride are [insert names here]."
-                Question="What are the names of the groom and bride?"
-              ></Question1>
-              <Question1
-                Answer="The wedding will take place on [insert date] at [insert time]."
-                Question="When is the wedding date and time?"
-              ></Question1>
-              <Question1
-                Answer="The wedding will be held at [insert venue name]."
-                Question="Where is the venue for the wedding?"
-              ></Question1>
-              <Question1
-                Answer="There will be a timeline of events including [insert events here]."
-                Question="What events can we expect at the venue?"
-              ></Question1>
-              <Question1
-                Answer="Yes, you can view photos of the couple on our website."
-                Question="Can we see photos of the couple?"
-              ></Question1>
-            </div>
-          </div>
-        </div>
+        <div className="home-faq-container faqContainer"></div>
       </div>
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
-          <div className="home-container31">
-            <span className="logo">WEDDING</span>
-            <nav className="home-nav1 bodySmall home-nav1">
-              <span className="home-nav11 bodySmall">Home</span>
-              <span className="home-nav22 bodySmall">About</span>
-              <span className="home-nav32 bodySmall">Date and Time</span>
-              <span className="home-nav42 bodySmall">Venue</span>
-              <span className="home-nav52 bodySmall">Events</span>
-            </nav>
-          </div>
           <div className="home-separator"></div>
-          <div className="home-container32">
-            <span className="bodySmall home-text89">
-              © 2023 myCompany, All Rights Reserved.
+          <div className="home-container7">
+            <span className="bodySmall home-text36">
+              © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group1">
               <svg
