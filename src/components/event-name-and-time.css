@@ -1,0 +1,62 @@
+.event-name-and-time-feature-card {
+  width: 678px;
+  height: 92px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: transparent;
+}
+.event-name-and-time-container {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.event-name-and-time-container1 {
+  flex: 0 0 auto;
+  width: 94px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.event-name-and-time-text {
+  color: #2008f7;
+  font-size: 55px;
+  align-self: center;
+  font-family: "GFS Didot";
+  line-height: 55px;
+}
+.event-name-and-time-text1 {
+  color: #2008f7;
+  font-size: 25px;
+  align-self: flex-end;
+  font-family: "GFS Didot";
+  line-height: 55px;
+}
+.event-name-and-time-container2 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.event-name-and-time-text2 {
+  font-size: 25px;
+  align-self: flex-start;
+  font-family: "GFS Didot";
+  font-weight: bold;
+  line-height: 55px;
+}
+
+
+
+@media(max-width: 767px) {
+  .event-name-and-time-feature-card {
+    flex-direction: row;
+  }
+}

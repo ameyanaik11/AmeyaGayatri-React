@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import EventNameAndTime from '../components/event-name-and-time'
 import './home.css'
 
 const Home = (props) => {
@@ -77,8 +78,8 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-hero">
-        <div className="home-container1">
-          <div className="home-container2">
+        <div className="home-container01">
+          <div className="home-container02">
             <h1 className="home-hero-heading">AMEYA &amp; GAYATRI</h1>
             <span className="home-hero-sub-heading">
               Feb 24, 2024, 12:00 PM | Baner, Pune
@@ -92,7 +93,81 @@ const Home = (props) => {
       <div className="home-features">
         <div className="featuresContainer">
           <div className="home-features1">
-            <div className="home-container3">
+            <div className="home-container03">
+              <div className="home-container04">
+                <span className="home-text">
+                  <br></br>
+                  <span>WHEN</span>
+                </span>
+              </div>
+              <div className="home-container05">
+                <span className="home-text03">
+                  <span>FRIDAY | </span>
+                  <span>Feb 23rd, 2024</span>
+                  <br></br>
+                </span>
+                <EventNameAndTime
+                  Time="4"
+                  Event="foo"
+                  rootClassName="event-name-and-time-root-class-name"
+                ></EventNameAndTime>
+                <EventNameAndTime
+                  Time="5"
+                  Event="engagement"
+                  rootClassName="event-name-and-time-root-class-name1"
+                ></EventNameAndTime>
+                <EventNameAndTime
+                  Time="6"
+                  Event="bar"
+                  rootClassName="event-name-and-time-root-class-name2"
+                ></EventNameAndTime>
+              </div>
+            </div>
+          </div>
+          <div className="home-features2">
+            <div className="home-container06">
+              <div className="home-container07">
+                <span className="home-text07">
+                  <br></br>
+                  <span>WHERE</span>
+                </span>
+              </div>
+              <div className="home-container08">
+                <span className="home-text10">
+                  Buntara Bhavana Banquet Hall
+                </span>
+                <span className="home-text11">
+                  <span>Near Mercedes Showroom Mumbai-Bangalore Highway,</span>
+                  <br></br>
+                  <span>
+                    Baner, Pune 411045
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </span>
+                <a
+                  href="https://maps.app.goo.gl/sBi1RLNhiX4adZyYA"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link buttonFilledSecondary button"
+                >
+                  <span>
+                    <span>Google Maps</span>
+                    <br></br>
+                  </span>
+                </a>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.218822142188!2d73.7666708!3d18.5641709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2beb4661cc46b%3A0x5ae30f3f48937359!2sBuntara%20Bhavana%20Banquet%20Hall%20and%20Auditorium%20in%20Pune!5e0!3m2!1sen!2sus!4v1705444024387!5m2!1sen!2sus"
+                  className="home-iframe"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div className="home-features3">
+            <div className="home-container09">
               <h2 className="home-features-heading heading2">THE WEDDING</h2>
               <span className="home-features-sub-heading bodyLarge">
                 <span>
@@ -150,70 +225,52 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container4">
+            <div className="home-container10">
               <div className="freePricingCard home-pricing-card">
-                <div className="home-container5">
-                  <span className="home-text09 heading3">WHEN</span>
+                <div className="home-container11">
+                  <span className="home-text27 heading3">WHEN</span>
                   <span className="bodySmall">Feb 24, 2024 12:00 PM</span>
                 </div>
               </div>
               <div className="basicPricingCard home-pricing-card1">
-                <div className="home-container6">
-                  <span className="home-text10 heading3">WHERE</span>
+                <div className="home-container12">
+                  <span className="home-text28 heading3">WHERE</span>
                   <span>
                     <span>Buntara Bhavana Banquet Hall,</span>
                     <br></br>
                     <br></br>
-                    <span>
-                      <span>
-                        Near Mercedes Showroom
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
                     <br></br>
                     <span>
-                      <span>
-                        Mumbai-Bangalore Highway,
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
+                      Near Mercedes Showroom Mumbai-Bangalore Highway,
                     </span>
                     <br></br>
                     <span>Baner, Pune 411045</span>
                     <br></br>
-                    <br></br>
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
                   </span>
                 </div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.218822142188!2d73.7666708!3d18.5641709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2beb4661cc46b%3A0x5ae30f3f48937359!2sBuntara%20Bhavana%20Banquet%20Hall%20and%20Auditorium%20in%20Pune!5e0!3m2!1sen!2sus!4v1705444024387!5m2!1sen!2sus"
-                  className="home-iframe"
+                  className="home-iframe1"
                 ></iframe>
                 <a
                   href="https://maps.app.goo.gl/sBi1RLNhiX4adZyYA"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link buttonFilledSecondary"
+                  className="home-link1 buttonFilledSecondary"
                 >
                   <span>
                     <span>Google Maps</span>
@@ -287,7 +344,7 @@ const Home = (props) => {
           </span>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLScdMbV9qrn4U4UgIDbenF6QMgzszX98VgJILi3A_D-tZddE6Q/viewform?embedded=true"
-            className="home-iframe1"
+            className="home-iframe2"
           ></iframe>
         </div>
       </div>
@@ -297,8 +354,8 @@ const Home = (props) => {
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
-          <div className="home-container7">
-            <span className="bodySmall home-text36">
+          <div className="home-container13">
+            <span className="bodySmall home-text50">
               © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group1">
