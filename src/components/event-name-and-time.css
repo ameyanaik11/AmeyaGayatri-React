@@ -46,6 +46,7 @@
   justify-content: center;
 }
 .event-name-and-time-text2 {
+  color: #ffffff;
   font-size: 25px;
   align-self: flex-start;
   font-family: "GFS Didot";

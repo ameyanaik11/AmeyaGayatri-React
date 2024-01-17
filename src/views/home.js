@@ -91,7 +91,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-features">
-        <div className="featuresContainer home-features-container">
+        <div className="home-features-container featuresContainer">
           <div className="home-features1">
             <div className="home-container03">
               <div className="home-container04">

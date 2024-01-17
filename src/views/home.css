@@ -172,6 +172,9 @@
   align-items: center;
   justify-content: center;
 }
+.home-features-container {
+  background-color: #21382e;
+}
 .home-features1 {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
@@ -203,6 +206,7 @@
   justify-content: center;
 }
 .home-text {
+  color: #3c9e75;
   font-size: 110px;
   font-family: "GFS Didot";
 }
@@ -214,6 +218,7 @@
   flex-direction: column;
 }
 .home-text03 {
+  color: #cbbfbf;
   font-size: 30px;
   align-self: flex-start;
   font-family: "Lato";
@@ -251,6 +256,7 @@
   justify-content: center;
 }
 .home-text07 {
+  color: #3c9e75;
   font-size: 110px;
   font-family: "GFS Didot";
 }
