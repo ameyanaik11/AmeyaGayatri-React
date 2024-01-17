@@ -6,118 +6,12 @@
   align-items: center;
   flex-direction: column;
 }
-.home-header {
-  width: 100%;
-  display: flex;
-  z-index: 100;
-  position: fixed;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--dl-color-gray-white);
-}
-.home-desktop-menu {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-}
-.home-buttons {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-burger-menu {
-  display: none;
-}
-.home-icon {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.home-mobile-menu1 {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: 32px;
-  z-index: 100;
-  position: absolute;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.home-nav {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.home-close-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-icon02 {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.home-links {
-  flex: 0 0 auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-nav1 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-nav2 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-nav3 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-nav4 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-nav5 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-buttons1 {
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .home-hero {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
-  margin-top: 96px;
+  margin-top: 0px;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -128,7 +22,7 @@
   display: flex;
   align-items: flex-start;
   background-size: cover;
-  background-image: url("/external/ameya-gayatri-vertical-1500w.jpg");
+  background-image: url("/external/ameya_gayatri_1-1500h.jpg");
 }
 .home-container02 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -451,27 +345,30 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-icon-group1 {
+.home-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.home-icon10 {
+.home-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon12 {
+.home-icon2 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon14 {
+.home-icon4 {
   width: 24px;
   height: 24px;
 }
 @media(max-width: 991px) {
+  .home-container01 {
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
+  }
   .home-container02 {
     align-items: center;
     margin-right: 0px;
@@ -509,37 +406,6 @@
   }
 }
 @media(max-width: 767px) {
-  .home-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .home-desktop-menu {
-    display: none;
-  }
-  .home-burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .home-nav1 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-nav2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-nav3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-nav4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-nav5 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .home-container02 {
     height: 804px;
   }
@@ -612,11 +478,8 @@
   }
 }
 @media(max-width: 479px) {
-  .home-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-  }
-  .home-mobile-menu1 {
-    padding: 16px;
+  .home-container01 {
+    height: 882px;
   }
   .home-container02 {
     margin-bottom: var(--dl-space-space-unit);
