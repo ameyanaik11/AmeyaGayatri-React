@@ -71,7 +71,7 @@ const Home = (props) => {
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
             Time="10:00 PM"
-            Event="Head home"
+            Event="Wrap up"
             rootClassName="event-name-and-time-simple-root-class-name7"
           ></EventNameAndTimeSimple>
         </div>
@@ -113,22 +113,22 @@ const Home = (props) => {
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
             Time="12:15 PM"
-            Event="Bride on Doli"
+            Event="Bride in Doli"
             rootClassName="event-name-and-time-simple-root-class-name10"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
             Time="12:48 PM"
-            Event="Shubh Lagnam"
+            Event="Wedding"
             rootClassName="event-name-and-time-simple-root-class-name16"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
             Time="1:00 PM"
-            Event="Reception (and Bhojanam)"
+            Event="Reception &amp; Lunch"
             rootClassName="event-name-and-time-simple-root-class-name17"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
             Time="4:00 PM"
-            Event="Bidai"
+            Event="Bidai - heading home"
             rootClassName="event-name-and-time-simple-root-class-name18"
           ></EventNameAndTimeSimple>
         </div>

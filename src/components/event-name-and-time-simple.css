@@ -2,8 +2,8 @@
   width: 678px;
   height: auto;
   align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
   justify-content: flex-start;
   background-color: transparent;
 }
@@ -31,9 +31,13 @@
 
 
 
+.event-name-and-time-simple-root-class-name8 {
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
 
-
-
+.event-name-and-time-simple-root-class-name11 {
+  display: none;
+}
 
 
 
