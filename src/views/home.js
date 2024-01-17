@@ -35,7 +35,7 @@ const Home = (props) => {
         </div>
         <div className="home-container4">
           <EventNameAndTimeSimple
-            Time="FRIDAY | Feb 23"
+            Time="Feb 23 Friday"
             rootClassName="event-name-and-time-simple-root-class-name"
             Event=" "
           ></EventNameAndTimeSimple>
@@ -77,7 +77,7 @@ const Home = (props) => {
         </div>
         <div className="home-container5">
           <EventNameAndTimeSimple
-            Time="SATURDAY | Feb 24"
+            Time="Feb 24 Saturday"
             rootClassName="event-name-and-time-simple-root-class-name8"
             Event=" "
           ></EventNameAndTimeSimple>

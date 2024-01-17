@@ -199,7 +199,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
-    padding-bottom: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
   }
   .home-hero-heading {
     text-align: center;
@@ -218,6 +218,9 @@
   }
 }
 @media(max-width: 767px) {
+  .home-container1 {
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
+  }
   .home-container2 {
     height: auto;
     align-self: flex-end;
