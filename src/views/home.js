@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import EventNameAndTime from '../components/event-name-and-time'
+import EventNameAndTimeSimple from '../components/event-name-and-time-simple'
 import './home.css'
 
 const Home = (props) => {
@@ -125,14 +126,43 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-features2">
+            <img
+              alt="image"
+              src="/external/order-of-events-transparent-200h.png"
+              className="home-image"
+            />
             <div className="home-container06">
-              <div className="home-container07">
+              <EventNameAndTimeSimple
+                Time="4:00 PM"
+                Event="Welcome drink"
+                rootClassName="event-name-and-time-simple-root-class-name"
+              ></EventNameAndTimeSimple>
+              <EventNameAndTimeSimple
+                Time="6:00 PM"
+                Event="Engagement"
+                rootClassName="event-name-and-time-simple-root-class-name1"
+              ></EventNameAndTimeSimple>
+              <EventNameAndTimeSimple
+                rootClassName="event-name-and-time-simple-root-class-name2"
+                Event="Var Vadhu Pujan"
+                Time="7:15 PM"
+              ></EventNameAndTimeSimple>
+              <EventNameAndTimeSimple
+                rootClassName="event-name-and-time-simple-root-class-name3"
+                Time="8:00 PM"
+                Event="Simant Pujan"
+              ></EventNameAndTimeSimple>
+            </div>
+          </div>
+          <div className="home-features3">
+            <div className="home-container07">
+              <div className="home-container08">
                 <span className="home-text07">
                   <br></br>
                   <span>WHERE</span>
                 </span>
               </div>
-              <div className="home-container08">
+              <div className="home-container09">
                 <span className="home-text10">
                   Buntara Bhavana Banquet Hall
                 </span>
@@ -166,8 +196,8 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-features3">
-            <div className="home-container09">
+          <div className="home-features4">
+            <div className="home-container10">
               <h2 className="home-features-heading heading2">THE WEDDING</h2>
               <span className="home-features-sub-heading bodyLarge">
                 <span>
@@ -225,15 +255,15 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container10">
+            <div className="home-container11">
               <div className="freePricingCard home-pricing-card">
-                <div className="home-container11">
+                <div className="home-container12">
                   <span className="home-text27 heading3">WHEN</span>
                   <span className="bodySmall">Feb 24, 2024 12:00 PM</span>
                 </div>
               </div>
               <div className="basicPricingCard home-pricing-card1">
-                <div className="home-container12">
+                <div className="home-container13">
                   <span className="home-text28 heading3">WHERE</span>
                   <span>
                     <span>Buntara Bhavana Banquet Hall,</span>
@@ -354,7 +384,7 @@ const Home = (props) => {
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
-          <div className="home-container13">
+          <div className="home-container14">
             <span className="bodySmall home-text50">
               © 2024. By Ameya &amp; Gayatri
             </span>
