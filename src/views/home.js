@@ -127,7 +127,9 @@ const Home = (props) => {
           <h1 className="home-banner-heading heading2">Where</h1>
           <span className="home-text02">Buntara Bhavana Banquet Hall,</span>
           <span className="home-text03">
-            <span>Near Mercedes Showroom Mumbai-Bangalore Highway,</span>
+            <span>Near Mercedes Showroom,</span>
+            <br></br>
+            <span> Mumbai-Bangalore Highway,</span>
             <br></br>
             <span>Baner, Pune 411045</span>
           </span>
@@ -151,7 +153,7 @@ const Home = (props) => {
       <div className="home-save-the-date">
         <div className="home-banner1 bannerContainer">
           <h1 className="home-banner-heading1 heading2">Save the Date</h1>
-          <span className="home-banner-sub-heading bodySmall">
+          <span className="home-banner-sub-heading Content">
             <span>
               Join us as we celebrate the union of Ameya and Gayatri on their
               special day. We invite you to witness their love and share in
@@ -224,7 +226,7 @@ const Home = (props) => {
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
           <div className="home-container6">
-            <span className="bodySmall home-text15">
+            <span className="bodySmall home-text17">
               © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group">
