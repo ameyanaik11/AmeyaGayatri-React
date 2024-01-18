@@ -19,9 +19,6 @@ const Home = (props) => {
             <span className="home-hero-sub-heading">
               Feb 24, 2024, 12:00 PM | Baner, Pune
             </span>
-            <div className="home-btn-group">
-              <button className="home-hero-button1 buttonFilled">RSVP</button>
-            </div>
           </div>
         </div>
       </div>
@@ -125,9 +122,35 @@ const Home = (props) => {
           ></EventNameAndTimeSimple>
         </div>
       </div>
+      <div className="home-venue">
+        <div className="home-banner bannerContainer">
+          <h1 className="home-banner-heading heading2">Where</h1>
+          <span className="home-text02">Buntara Bhavana Banquet Hall,</span>
+          <span className="home-text03">
+            <span>Near Mercedes Showroom Mumbai-Bangalore Highway,</span>
+            <br></br>
+            <span>Baner, Pune 411045</span>
+          </span>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.218822142188!2d73.7666708!3d18.5641709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2beb4661cc46b%3A0x5ae30f3f48937359!2sBuntara%20Bhavana%20Banquet%20Hall%20and%20Auditorium%20in%20Pune!5e0!3m2!1sen!2sus!4v1705444024387!5m2!1sen!2sus"
+            className="home-iframe"
+          ></iframe>
+          <a
+            href="https://maps.app.goo.gl/sBi1RLNhiX4adZyYA"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <div className="home-btn-group">
+              <button className="home-hero-button1 buttonFilled">
+                Google Maps
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
       <div className="home-save-the-date">
-        <div className="bannerContainer home-banner">
-          <h1 className="home-banner-heading heading2">Save the Date</h1>
+        <div className="home-banner1 bannerContainer">
+          <h1 className="home-banner-heading1 heading2">Save the Date</h1>
           <span className="home-banner-sub-heading bodySmall">
             <span>
               Join us as we celebrate the union of Ameya and Gayatri on their
@@ -184,13 +207,24 @@ const Home = (props) => {
               />
             </span>
           </span>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScdMbV9qrn4U4UgIDbenF6QMgzszX98VgJILi3A_D-tZddE6Q/viewform"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <div className="home-btn-group1">
+              <button className="home-hero-button11 buttonFilled">
+                RSVP - Google Form
+              </button>
+            </div>
+          </a>
         </div>
       </div>
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
           <div className="home-container6">
-            <span className="bodySmall home-text10">
+            <span className="bodySmall home-text15">
               © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group">
