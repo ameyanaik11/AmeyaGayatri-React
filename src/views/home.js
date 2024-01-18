@@ -34,11 +34,7 @@ const Home = (props) => {
           />
         </div>
         <div className="home-container4">
-          <EventNameAndTimeSimple
-            Time="Feb 23 Friday"
-            rootClassName="event-name-and-time-simple-root-class-name"
-            Event=" "
-          ></EventNameAndTimeSimple>
+          <span className="home-text">Feb 23 | Friday</span>
           <EventNameAndTimeSimple
             Time="4:00 PM"
             Event="Welcome drink"
@@ -76,11 +72,7 @@ const Home = (props) => {
           ></EventNameAndTimeSimple>
         </div>
         <div className="home-container5">
-          <EventNameAndTimeSimple
-            Time="Feb 24 Saturday"
-            rootClassName="event-name-and-time-simple-root-class-name8"
-            Event=" "
-          ></EventNameAndTimeSimple>
+          <span className="home-text01">Feb 24 | Saturday</span>
           <EventNameAndTimeSimple
             Time="6:00 AM"
             Event="Haldi"
@@ -192,20 +184,13 @@ const Home = (props) => {
               />
             </span>
           </span>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScdMbV9qrn4U4UgIDbenF6QMgzszX98VgJILi3A_D-tZddE6Q/viewform?embedded=true"
-            className="home-iframe"
-          ></iframe>
         </div>
-      </div>
-      <div className="home-faq">
-        <div className="home-faq-container faqContainer"></div>
       </div>
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
           <div className="home-container6">
-            <span className="bodySmall home-text8">
+            <span className="bodySmall home-text10">
               © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group">

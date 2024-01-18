@@ -31,14 +31,10 @@
 
 
 
-.event-name-and-time-simple-root-class-name8 {
-  margin-top: var(--dl-space-space-oneandhalfunits);
-}
 
 .event-name-and-time-simple-root-class-name11 {
   display: none;
 }
-
 
 
 
@@ -53,6 +49,18 @@
 }
 @media(max-width: 479px) {
   .event-name-and-time-simple-feature-card {
-    width: 450px;
+    width: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .event-name-and-time-simple-container {
+    left: 25px;
+    width: auto;
+    position: absolute;
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    padding-top: var(--dl-space-space-halfunit);
+  }
+  .event-name-and-time-simple-text {
+    width: var(--dl-size-size-large);
   }
 }

@@ -11,8 +11,8 @@ const EventNameAndTimeSimple = (props) => {
     >
       <div className="event-name-and-time-simple-container">
         <span className="event-name-and-time-simple-text">{props.Time}</span>
+        <span className="event-name-and-time-simple-text1">{props.Event}</span>
       </div>
-      <span className="event-name-and-time-simple-text1">{props.Event}</span>
     </div>
   )
 }

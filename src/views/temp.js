@@ -205,6 +205,71 @@ const Temp = (props) => {
           </div>
         </div>
       </div>
+      <div className="temp-save-the-date">
+        <div className="bannerContainer temp-banner">
+          <h1 className="temp-banner-heading heading2">Save the Date</h1>
+          <span className="temp-banner-sub-heading bodySmall">
+            <span>
+              Join us as we celebrate the union of Ameya and Gayatri on their
+              special day. We invite you to witness their love and share in
+              their joy.
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </span>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScdMbV9qrn4U4UgIDbenF6QMgzszX98VgJILi3A_D-tZddE6Q/viewform?embedded=true"
+            className="temp-iframe2"
+          ></iframe>
+        </div>
+      </div>
     </div>
   )
 }
