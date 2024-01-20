@@ -170,7 +170,6 @@
   margin-top: var(--dl-space-space-twounits);
   transition: 0.3s;
   font-family: "Montserrat";
-  border-width: 4px;
   background-color: rgba(20, 116, 135, 0);
 }
 .home-hero-button1:hover {
@@ -216,7 +215,6 @@
   font-size: 1em;
   transition: 0.3s;
   font-family: "Montserrat";
-  border-width: 4px;
   background-color: rgba(20, 116, 135, 0);
 }
 .home-hero-button11:hover {

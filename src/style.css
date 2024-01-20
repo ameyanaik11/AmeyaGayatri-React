@@ -88,6 +88,8 @@
   font-family: Inter Tight;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-success-300);
+  border-width: 3px;
   padding-left: var(--dl-space-space-oneandhalfunits);
   border-radius: 8px;
   padding-right: var(--dl-space-space-oneandhalfunits);
