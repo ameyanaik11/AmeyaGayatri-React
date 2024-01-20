@@ -9,7 +9,7 @@ const EventNameAndTimeSimple = (props) => {
     <animate-on-reveal
       animation="fadeIn"
       duration="1s"
-      delay="0ms"
+      delay="500ms"
       direction="normal"
       easing="ease-in"
       iteration="1"
