@@ -139,6 +139,13 @@
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .home-text06 {
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.home-text07 {
   display: none;
   font-size: 1em;
   text-align: center;
@@ -183,14 +190,14 @@
   padding-bottom: var(--dl-space-space-threeunits);
   background-color: var(--dl-color-gray-white);
 }
-.home-text12 {
+.home-text13 {
   font-size: 2em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text13 {
+.home-text14 {
   font-size: 1em;
   text-align: center;
   font-family: "Montserrat";
@@ -250,14 +257,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text17 {
+.home-text18 {
   font-size: 2em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text18 {
+.home-text19 {
   display: none;
 }
 .home-icon-group {
@@ -334,6 +341,14 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-text05 {
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+  .home-text06 {
+    display: none;
+  }
   .home-iframe {
     display: none;
   }
@@ -356,10 +371,10 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text17 {
+  .home-text18 {
     font-size: 1em;
   }
-  .home-text18 {
+  .home-text19 {
     display: none;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
@@ -415,10 +430,15 @@
   }
   .home-text05 {
     width: auto;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
   }
   .home-text06 {
+    width: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .home-text07 {
     width: auto;
     font-size: 1em;
     font-weight: bold;
@@ -436,12 +456,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-text12 {
+  .home-text13 {
     width: auto;
     font-size: 1.5em;
     font-weight: bold;
   }
-  .home-text13 {
+  .home-text14 {
     width: auto;
     font-size: 1em;
     font-weight: bold;
@@ -461,12 +481,12 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text17 {
+  .home-text18 {
     width: auto;
     font-size: 1.5em;
     font-weight: bold;
   }
-  .home-text18 {
+  .home-text19 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
