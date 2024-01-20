@@ -45,12 +45,6 @@
   line-height: 150%;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-animate-on-reveal {
-  color: rgb(243, 238, 238);
-  font-size: 1.2em;
-  text-align: center;
-  font-family: "GFS Didot";
-}
 .home-hero-sub-heading {
   color: rgb(243, 238, 238);
   font-size: 1.2em;
@@ -302,11 +296,6 @@
   .home-hero-heading {
     text-align: center;
   }
-  .home-animate-on-reveal {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
   .home-hero-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
@@ -328,11 +317,15 @@
     margin-bottom: 0px;
     padding-bottom: var(--dl-space-space-sixunits);
   }
-  .home-animate-on-reveal {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+  .home-hero-heading {
+    animation-name: pulse;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
   }
   .home-hero-sub-heading {
+    font-size: 1.5em;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -393,9 +386,6 @@
   .home-hero-heading {
     font-size: 1.7em;
     max-width: 100%;
-  }
-  .home-animate-on-reveal {
-    font-size: 1.2em;
   }
   .home-hero-sub-heading {
     font-size: 1.2em;
