@@ -44,6 +44,12 @@
   font-weight: 700;
   line-height: 150%;
   border-radius: var(--dl-radius-radius-radius4);
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .home-hero-sub-heading {
   color: rgb(243, 238, 238);
@@ -251,7 +257,7 @@
   justify-content: space-between;
 }
 .home-text18 {
-  font-size: 2em;
+  font-size: 1em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
@@ -316,13 +322,6 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: var(--dl-space-space-sixunits);
-  }
-  .home-hero-heading {
-    animation-name: pulse;
-    animation-delay: 0s;
-    animation-duration: 300ms;
-    animation-direction: normal;
-    animation-iteration-count: 1;
   }
   .home-hero-sub-heading {
     font-size: 1.5em;
