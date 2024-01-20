@@ -33,37 +33,37 @@ const Home = (props) => {
         <div className="home-container4">
           <span className="home-text">Feb 23 | Friday</span>
           <EventNameAndTimeSimple
-            Time="4:00 PM"
-            Event="Welcome drink"
+            Time="4:00 pm"
+            Event="Tea &amp; refreshments"
             rootClassName="event-name-and-time-simple-root-class-name4"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="6:00 PM"
+            Time="6:00 pm"
             Event="Engagement"
             rootClassName="event-name-and-time-simple-root-class-name1"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="7:15 PM"
-            Event="Var Vadhu Pujan"
+            Time="7:15 pm"
+            Event="Var vadhu pujan"
             rootClassName="event-name-and-time-simple-root-class-name2"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="7:30 PM"
-            Event="Simant Pujan"
+            Time="7:30 pm"
+            Event="Simant pujan"
             rootClassName="event-name-and-time-simple-root-class-name3"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="8:00 PM"
+            Time="8:00 pm"
             Event="Sangeet"
             rootClassName="event-name-and-time-simple-root-class-name5"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="9:00 PM"
+            Time="9:00 pm"
             Event="Dinner"
             rootClassName="event-name-and-time-simple-root-class-name6"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="10:00 PM"
+            Time="10:00 pm"
             Event="Wrap up"
             rootClassName="event-name-and-time-simple-root-class-name7"
           ></EventNameAndTimeSimple>
@@ -71,7 +71,7 @@ const Home = (props) => {
         <div className="home-container5">
           <span className="home-text01">Feb 24 | Saturday</span>
           <EventNameAndTimeSimple
-            Time="6:00 AM"
+            Time="6:00 am"
             Event="Haldi"
             rootClassName="event-name-and-time-simple-root-class-name9"
           ></EventNameAndTimeSimple>
@@ -81,42 +81,42 @@ const Home = (props) => {
             rootClassName="event-name-and-time-simple-root-class-name11"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="8:00 AM"
+            Time="8:00 am"
             Event="Breakfast"
             rootClassName="event-name-and-time-simple-root-class-name12"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="8:45 AM"
+            Time="8:45 am"
             Event="Mangalashtake"
             rootClassName="event-name-and-time-simple-root-class-name13"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="9:15 AM"
+            Time="9:15 am"
             Event="Kanyadan"
             rootClassName="event-name-and-time-simple-root-class-name14"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="9:45 PM"
+            Time="9:45 am"
             Event="Saptpadi"
             rootClassName="event-name-and-time-simple-root-class-name15"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="12:15 PM"
+            Time="12:15 pm"
             Event="Bride in Doli"
             rootClassName="event-name-and-time-simple-root-class-name10"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="12:48 PM"
+            Time="12:48 pm"
             Event="Wedding"
             rootClassName="event-name-and-time-simple-root-class-name16"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="1:00 PM"
+            Time="1:00 pm"
             Event="Reception &amp; Lunch"
             rootClassName="event-name-and-time-simple-root-class-name17"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
-            Time="4:00 PM"
+            Time="4:00 pm"
             Event="Bidai - heading home"
             rootClassName="event-name-and-time-simple-root-class-name18"
           ></EventNameAndTimeSimple>
@@ -124,9 +124,12 @@ const Home = (props) => {
       </div>
       <div className="home-venue">
         <div className="home-banner bannerContainer">
-          <h1 className="home-banner-heading heading2">Where</h1>
-          <span className="home-text02">Buntara Bhavana Banquet Hall,</span>
-          <span className="home-text03">
+          <span className="home-text02">
+            <span>Venue</span>
+            <br></br>
+          </span>
+          <span className="home-text05">Buntara Bhavana Banquet Hall,</span>
+          <span className="home-text06">
             <span>Near Mercedes Showroom,</span>
             <br></br>
             <span> Mumbai-Bangalore Highway,</span>
@@ -152,56 +155,20 @@ const Home = (props) => {
       </div>
       <div className="home-save-the-date">
         <div className="home-banner1 bannerContainer">
-          <h1 className="home-banner-heading1 heading2">Save the Date</h1>
-          <span className="home-banner-sub-heading Content">
+          <span className="home-text12">Save the Date</span>
+          <span className="home-text13">
             <span>
               Join us as we celebrate the union of Ameya and Gayatri on their
-              special day. We invite you to witness their love and share in
-              their joy.
-            </span>
-            <span>
+              special day.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
+            <br></br>
             <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
+              We invite you to witness their love and share in their joy.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -216,7 +183,7 @@ const Home = (props) => {
           >
             <div className="home-btn-group1">
               <button className="home-hero-button11 buttonFilled">
-                RSVP - Google Form
+                RSVP Now
               </button>
             </div>
           </a>
@@ -226,7 +193,8 @@ const Home = (props) => {
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
           <div className="home-container6">
-            <span className="bodySmall home-text17">
+            <span className="home-text17">© 2024. By Ameya &amp; Gayatri</span>
+            <span className="home-text18 bodySmall">
               © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group">

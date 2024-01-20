@@ -17,6 +17,7 @@
 .event-name-and-time-simple-text {
   width: var(--dl-size-size-xlarge);
   font-size: 1.5em;
+  font-family: "Montserrat";
   font-weight: bold;
 }
 .event-name-and-time-simple-text1 {
