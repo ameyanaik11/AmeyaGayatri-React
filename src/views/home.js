@@ -9,8 +9,15 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>AmeyaGayatri</title>
-        <meta property="og:title" content="AmeyaGayatri" />
+        <title>Ameya & Gayatri's Wedding Celebration</title>
+        <meta
+          name="description"
+          content="Join the joy and create lasting memories with us, taking place from Feb 23 to Feb 24 in Pune."
+        />
+        <meta
+          property="og:title"
+          content="Ameya &amp; Gayatri's Wedding Celebration"
+        />
         <meta
           property="og:description"
           content="Join the joy and create lasting memories with us, taking place from Feb 23 to Feb 24 in Pune."
