@@ -389,16 +389,17 @@
   .home-container2 {
     width: 100%;
     margin-bottom: var(--dl-space-space-unit);
+    padding-bottom: 8em;
   }
   .home-hero-heading {
-    font-size: 1.5em;
+    font-size: 1.7em;
     max-width: 100%;
   }
   .home-animate-on-reveal {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .home-hero-sub-heading {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .home-container4 {
     width: 100%;
