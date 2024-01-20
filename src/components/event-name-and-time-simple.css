@@ -69,13 +69,13 @@
 @media(max-width: 479px) {
   .event-name-and-time-simple-animate-on-reveal {
     width: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .event-name-and-time-simple-feature-card {
     width: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .event-name-and-time-simple-container {
     left: 25px;
