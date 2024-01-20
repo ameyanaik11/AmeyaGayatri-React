@@ -19,7 +19,7 @@ const Home = (props) => {
             <animate-on-reveal
               animation="fadeIn"
               duration="1s"
-              delay="1s"
+              delay="0s"
               direction="normal"
               easing="ease"
               iteration="1"
@@ -29,7 +29,7 @@ const Home = (props) => {
                 data-thq-animate-on-reveal="true"
                 className="home-hero-sub-heading"
               >
-                Feb 24, 2024, 12:00 PM | Baner, Pune
+                Feb 24, 2024, 12:48 pm | Baner, Pune
               </span>
             </animate-on-reveal>
           </div>

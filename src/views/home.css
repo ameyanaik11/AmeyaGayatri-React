@@ -47,13 +47,13 @@
 }
 .home-animate-on-reveal {
   color: rgb(243, 238, 238);
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   font-family: "GFS Didot";
 }
 .home-hero-sub-heading {
   color: rgb(243, 238, 238);
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   font-family: "GFS Didot";
 }
@@ -483,7 +483,7 @@
   }
   .home-text18 {
     width: auto;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
   }
   .home-text19 {
