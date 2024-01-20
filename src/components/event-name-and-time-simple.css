@@ -1,20 +1,17 @@
-.event-name-and-time-simple-animate-on-reveal {
-  width: 678px;
-  height: auto;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-bottom: var(--dl-space-space-halfunit);
-  justify-content: flex-start;
-  background-color: transparent;
-}
 .event-name-and-time-simple-feature-card {
   width: 678px;
   height: auto;
   align-items: center;
   padding-top: var(--dl-space-space-halfunit);
+  animation-name: fadeIn;
   padding-bottom: var(--dl-space-space-halfunit);
+  animation-delay: 0s;
   justify-content: flex-start;
   background-color: transparent;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .event-name-and-time-simple-container {
   flex: 0 0 auto;
@@ -23,7 +20,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.event-name-and-time-simple-animate-on-reveal1 {
+.event-name-and-time-simple-animate-on-reveal {
   width: var(--dl-size-size-xlarge);
   font-size: 1.5em;
   font-family: "Montserrat";
@@ -59,19 +56,11 @@
 
 
 @media(max-width: 767px) {
-  .event-name-and-time-simple-animate-on-reveal {
-    flex-direction: row;
-  }
   .event-name-and-time-simple-feature-card {
     flex-direction: row;
   }
 }
 @media(max-width: 479px) {
-  .event-name-and-time-simple-animate-on-reveal {
-    width: auto;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-  }
   .event-name-and-time-simple-feature-card {
     width: auto;
     margin-top: 0.5em;
@@ -82,7 +71,7 @@
     width: auto;
     position: absolute;
   }
-  .event-name-and-time-simple-animate-on-reveal1 {
+  .event-name-and-time-simple-animate-on-reveal {
     width: var(--dl-size-size-medium);
     font-size: 1.2em;
   }
