@@ -11,6 +11,14 @@ const Temp = (props) => {
       <Helmet>
         <title>Temp - AmeyaGayatri</title>
         <meta property="og:title" content="Temp - AmeyaGayatri" />
+        <meta
+          property="og:description"
+          content="Join the joy and create lasting memories with us, taking place from Feb 23 to Feb 24 in Pune."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/425c9fdf-65a5-4028-a28e-1e3e70635a39/9ada2f25-bda5-4ba1-bd47-c975c3b50f52?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <div className="temp-features">
         <div className="temp-features-container featuresContainer">

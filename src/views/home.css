@@ -198,6 +198,14 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .home-text14 {
+  display: none;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home-text18 {
   font-size: 1em;
   text-align: center;
   font-family: "Montserrat";
@@ -256,14 +264,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text18 {
+.home-text26 {
   font-size: 1em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text19 {
+.home-text27 {
   display: none;
 }
 .home-icon-group {
@@ -362,10 +370,10 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text18 {
+  .home-text26 {
     font-size: 1em;
   }
-  .home-text19 {
+  .home-text27 {
     display: none;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
@@ -455,6 +463,11 @@
     font-size: 1em;
     font-weight: bold;
   }
+  .home-text18 {
+    width: auto;
+    font-size: 1em;
+    font-weight: bold;
+  }
   .home-btn-group1 {
     flex-direction: column;
   }
@@ -470,12 +483,12 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text18 {
+  .home-text26 {
     width: auto;
     font-size: 1em;
     font-weight: bold;
   }
-  .home-text19 {
+  .home-text27 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

@@ -11,6 +11,14 @@ const Home = (props) => {
       <Helmet>
         <title>AmeyaGayatri</title>
         <meta property="og:title" content="AmeyaGayatri" />
+        <meta
+          property="og:description"
+          content="Join the joy and create lasting memories with us, taking place from Feb 23 to Feb 24 in Pune."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/425c9fdf-65a5-4028-a28e-1e3e70635a39/9ada2f25-bda5-4ba1-bd47-c975c3b50f52?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <div className="home-hero">
         <div className="home-container1">
@@ -34,7 +42,7 @@ const Home = (props) => {
           <span className="home-text">Feb 23 | Friday</span>
           <EventNameAndTimeSimple
             Time="4:00 pm"
-            Event="Tea &amp; refreshments"
+            Event="Tea &amp; Refreshments"
             rootClassName="event-name-and-time-simple-root-class-name4"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
@@ -177,6 +185,26 @@ const Home = (props) => {
               />
             </span>
           </span>
+          <span className="home-text18">
+            <span>
+              We are delighted to invite you to the joyous celebration of Ameya
+              and Gayatri&apos;s wedding!
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <br></br>
+            <span>
+              Please take a moment to RSVP and share your attendance preferences
+              for the various events. 
+            </span>
+            <br></br>
+            <span>Thank you for being a part of our joyous celebration!</span>
+            <br></br>
+          </span>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScdMbV9qrn4U4UgIDbenF6QMgzszX98VgJILi3A_D-tZddE6Q/viewform"
             target="_blank"
@@ -184,7 +212,7 @@ const Home = (props) => {
           >
             <div className="home-btn-group1">
               <button className="home-hero-button11 buttonFilled">
-                RSVP Now
+                Confirm Attendance
               </button>
             </div>
           </a>
@@ -194,8 +222,8 @@ const Home = (props) => {
         <footer className="footerContainer home-footer1">
           <div className="home-separator"></div>
           <div className="home-container6">
-            <span className="home-text18">© 2024. By Ameya &amp; Gayatri</span>
-            <span className="home-text19 bodySmall">
+            <span className="home-text26">© 2024. By Ameya &amp; Gayatri</span>
+            <span className="home-text27 bodySmall">
               © 2024. By Ameya &amp; Gayatri
             </span>
             <div className="home-icon-group">
