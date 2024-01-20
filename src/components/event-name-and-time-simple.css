@@ -1,3 +1,12 @@
+.event-name-and-time-simple-animate-on-reveal {
+  width: 678px;
+  height: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+  background-color: transparent;
+}
 .event-name-and-time-simple-feature-card {
   width: 678px;
   height: auto;
@@ -13,6 +22,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+.event-name-and-time-simple-animate-on-reveal1 {
+  width: var(--dl-size-size-xlarge);
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 .event-name-and-time-simple-text {
   width: var(--dl-size-size-xlarge);
@@ -44,11 +59,19 @@
 
 
 @media(max-width: 767px) {
+  .event-name-and-time-simple-animate-on-reveal {
+    flex-direction: row;
+  }
   .event-name-and-time-simple-feature-card {
     flex-direction: row;
   }
 }
 @media(max-width: 479px) {
+  .event-name-and-time-simple-animate-on-reveal {
+    width: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   .event-name-and-time-simple-feature-card {
     width: auto;
     margin-top: 1em;
@@ -58,6 +81,10 @@
     left: 25px;
     width: auto;
     position: absolute;
+  }
+  .event-name-and-time-simple-animate-on-reveal1 {
+    width: var(--dl-size-size-medium);
+    font-size: 1.2em;
   }
   .event-name-and-time-simple-text {
     width: var(--dl-size-size-medium);

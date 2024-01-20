@@ -43,6 +43,13 @@
   font-family: "GFS Didot";
   font-weight: 700;
   line-height: 150%;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.home-animate-on-reveal {
+  color: rgb(243, 238, 238);
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "GFS Didot";
 }
 .home-hero-sub-heading {
   color: rgb(243, 238, 238);
@@ -289,6 +296,11 @@
   .home-hero-heading {
     text-align: center;
   }
+  .home-animate-on-reveal {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
   .home-hero-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
@@ -309,6 +321,10 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: var(--dl-space-space-sixunits);
+  }
+  .home-animate-on-reveal {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
   }
   .home-hero-sub-heading {
     padding-left: var(--dl-space-space-unit);
@@ -363,6 +379,9 @@
     font-size: 1.5em;
     max-width: 100%;
   }
+  .home-animate-on-reveal {
+    font-size: 1em;
+  }
   .home-hero-sub-heading {
     font-size: 1em;
   }
@@ -402,10 +421,8 @@
   .home-text06 {
     width: auto;
     font-size: 1em;
-    text-align: right;
     font-weight: bold;
     margin-bottom: 0px;
-    padding-bottom: 0px;
   }
   .home-iframe {
     display: none;

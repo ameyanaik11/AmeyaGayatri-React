@@ -16,9 +16,22 @@ const Home = (props) => {
         <div className="home-container1">
           <div className="home-container2">
             <h1 className="home-hero-heading">AMEYA &amp; GAYATRI</h1>
-            <span className="home-hero-sub-heading">
-              Feb 24, 2024, 12:00 PM | Baner, Pune
-            </span>
+            <animate-on-reveal
+              animation="fadeIn"
+              duration="1s"
+              delay="1s"
+              direction="normal"
+              easing="ease"
+              iteration="1"
+              className="home-animate-on-reveal"
+            >
+              <span
+                data-thq-animate-on-reveal="true"
+                className="home-hero-sub-heading"
+              >
+                Feb 24, 2024, 12:00 PM | Baner, Pune
+              </span>
+            </animate-on-reveal>
           </div>
         </div>
       </div>
