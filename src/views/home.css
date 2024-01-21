@@ -395,7 +395,7 @@
     max-width: 100%;
   }
   .home-hero-sub-heading {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .home-container4 {
     width: 100%;
@@ -466,7 +466,6 @@
   .home-text18 {
     width: auto;
     font-size: 1em;
-    font-weight: bold;
   }
   .home-btn-group1 {
     flex-direction: column;
