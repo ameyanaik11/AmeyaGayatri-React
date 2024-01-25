@@ -17,31 +17,31 @@ const EventNameAndTimeSimple = (props) => {
           direction="normal"
           easing="ease"
           iteration="1"
-          className="event-name-and-time-simple-animate-on-reveal"
+          className=""
         >
           <span
             data-thq-animate-on-reveal="true"
             className="event-name-and-time-simple-text"
           >
-            {props.Time}
+            {props.time}
           </span>
         </animate-on-reveal>
-        <span className="event-name-and-time-simple-text1">{props.Event}</span>
+        <span className="event-name-and-time-simple-text1">{props.event}</span>
       </div>
     </div>
   )
 }
 
 EventNameAndTimeSimple.defaultProps = {
-  Event: 'Wedding FOO BAR',
+  event: 'Wedding FOO BAR',
   rootClassName: '',
-  Time: '6:00 AM',
+  time: '6:00 AM',
 }
 
 EventNameAndTimeSimple.propTypes = {
-  Event: PropTypes.string,
+  event: PropTypes.string,
   rootClassName: PropTypes.string,
-  Time: PropTypes.string,
+  time: PropTypes.string,
 }
 
 export default EventNameAndTimeSimple

@@ -20,12 +20,6 @@
   align-items: center;
   justify-content: flex-start;
 }
-.event-name-and-time-simple-animate-on-reveal {
-  width: var(--dl-size-size-xlarge);
-  font-size: 1.5em;
-  font-family: "Montserrat";
-  font-weight: bold;
-}
 .event-name-and-time-simple-text {
   width: var(--dl-size-size-xlarge);
   font-size: 1.5em;
@@ -55,6 +49,25 @@
 
 
 
+
+
+
+
+
+
+
+
+.event-name-and-time-simple-root-class-name25 {
+  display: none;
+}
+
+
+
+
+
+
+
+
 @media(max-width: 767px) {
   .event-name-and-time-simple-feature-card {
     flex-direction: row;
@@ -70,10 +83,6 @@
     left: 25px;
     width: auto;
     position: absolute;
-  }
-  .event-name-and-time-simple-animate-on-reveal {
-    width: var(--dl-size-size-medium);
-    font-size: 1.2em;
   }
   .event-name-and-time-simple-text {
     width: var(--dl-size-size-medium);

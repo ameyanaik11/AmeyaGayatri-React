@@ -1,4 +1,4 @@
-.home-container {
+.home20230123-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-hero {
+.home20230123-hero {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container1 {
+.home20230123-container01 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -25,7 +25,7 @@
   background-size: cover;
   background-image: url("/external/ameya_gayatri_1-1500h.jpg");
 }
-.home-container2 {
+.home20230123-container02 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -35,7 +35,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
 }
-.home-hero-heading {
+.home20230123-hero-heading {
   color: #eceaea;
   font-size: 3em;
   max-width: 800px;
@@ -51,13 +51,13 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-hero-sub-heading {
+.home20230123-hero-sub-heading {
   color: rgb(243, 238, 238);
   font-size: 1.2em;
   text-align: center;
   font-family: "GFS Didot";
 }
-.home-event {
+.home20230123-event {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -67,20 +67,20 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container3 {
+.home20230123-container03 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-image {
+.home20230123-image {
   flex: 1;
   width: 239px;
   height: 118px;
   object-fit: cover;
   margin-bottom: var(--dl-space-space-threeunits);
 }
-.home-container4 {
+.home20230123-container04 {
   flex: 0 0 auto;
   width: 711px;
   height: auto;
@@ -89,13 +89,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text {
+.home20230123-text {
   font-size: 2em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-container5 {
+.home20230123-container05 {
   flex: 0 0 auto;
   width: 711px;
   height: auto;
@@ -105,14 +105,14 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.home-text01 {
+.home20230123-text01 {
   font-size: 2em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-venue {
+.home20230123-venue {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -120,25 +120,25 @@
   align-items: center;
   justify-content: center;
 }
-.home-banner {
+.home20230123-banner {
   padding-top: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-threeunits);
 }
-.home-text02 {
+.home20230123-text02 {
   font-size: 2em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text05 {
+.home20230123-text05 {
   font-size: 1.5em;
   font-family: "Montserrat";
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.home-text06 {
+.home20230123-text06 {
   display: none;
   font-size: 1.5em;
   font-family: "Montserrat";
@@ -146,7 +146,7 @@
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.home-text07 {
+.home20230123-text07 {
   display: none;
   font-size: 1em;
   text-align: center;
@@ -154,18 +154,18 @@
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-iframe {
+.home20230123-iframe {
   width: 750px;
   height: 500px;
 }
-.home-btn-group {
+.home20230123-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: row;
   text-decoration: none;
 }
-.home-hero-button1 {
+.home20230123-hero-button1 {
   color: rgb(0, 0, 0);
   font-size: 1em;
   margin-top: var(--dl-space-space-twounits);
@@ -173,11 +173,11 @@
   font-family: "Montserrat";
   background-color: rgba(20, 116, 135, 0);
 }
-.home-hero-button1:hover {
+.home20230123-hero-button1:hover {
   color: #ffffff;
   background-color: #437b41;
 }
-.home-save-the-date {
+.home20230123-save-the-date {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -185,30 +185,19 @@
   align-items: center;
   justify-content: center;
 }
-.home-container6 {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius4);
-  background-size: cover;
-  background-image: url('https://res.cloudinary.com/dgcaadfgd/image/upload/f_auto,q_auto/save_the_date.jpg');
-}
-.home-banner1 {
-  width: 50%;
+.home20230123-banner1 {
   padding-top: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-threeunits);
   background-color: var(--dl-color-gray-white);
 }
-.home-text13 {
-  display: none;
+.home20230123-text13 {
   font-size: 2em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text14 {
+.home20230123-text14 {
   display: none;
   font-size: 1em;
   text-align: center;
@@ -216,89 +205,32 @@
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text18 {
-  font-size: 1.2em;
-  text-align: center;
-  font-family: "Montserrat";
-  padding-top: var(--dl-space-space-halfunit);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.home-btn-group1 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  text-decoration: none;
-}
-.home-hero-button11 {
-  color: rgb(0, 0, 0);
-  font-size: 1.2em;
-  transition: 0.3s;
-  font-family: "Montserrat";
-  padding-left: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-halfunit);
-  background-color: rgba(20, 116, 135, 0);
-}
-.home-hero-button11:hover {
-  color: #ffffff;
-  background-color: #437b41;
-}
-.home-save-the-date-mobile {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.home-banner2 {
-  width: 50%;
-  padding-top: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
-  background-color: var(--dl-color-gray-white);
-}
-.home-text26 {
-  display: none;
-  font-size: 2em;
-  font-family: "GFS Didot";
-  font-weight: bold;
-  padding-top: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.home-text27 {
-  display: none;
+.home20230123-text18 {
   font-size: 1em;
   text-align: center;
   font-family: "Montserrat";
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text31 {
-  font-size: 1.2em;
-  text-align: center;
-  font-family: "Montserrat";
-  padding-top: var(--dl-space-space-halfunit);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.home-btn-group2 {
+.home20230123-btn-group1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: row;
   text-decoration: none;
 }
-.home-hero-button12 {
+.home20230123-hero-button11 {
   color: rgb(0, 0, 0);
-  font-size: 1.2em;
+  font-size: 1em;
   transition: 0.3s;
   font-family: "Montserrat";
   background-color: rgba(20, 116, 135, 0);
 }
-.home-hero-button12:hover {
+.home20230123-hero-button11:hover {
   color: #ffffff;
   background-color: #437b41;
 }
-.home-footer {
+.home20230123-footer {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -306,7 +238,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-separator {
+.home20230123-separator {
   flex: 0 0 auto;
   width: 100%;
   height: 0px;
@@ -324,7 +256,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.home-container7 {
+.home20230123-container06 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -332,295 +264,479 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text39 {
+.home20230123-text26 {
   font-size: 1em;
   font-family: "GFS Didot";
   font-weight: bold;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text40 {
+.home20230123-text27 {
   display: none;
 }
-.home-icon-group {
+.home20230123-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.home-icon {
+.home20230123-icon {
   width: 24px;
   height: 24px;
   display: none;
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon2 {
+.home20230123-icon2 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon4 {
+.home20230123-icon4 {
   width: 24px;
   height: 24px;
   display: none;
+}
+.home20230123-save-the-date-2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home20230123-container07 {
+  width: 80%;
+  height: 120vh;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-size: cover;
+  background-image: 47f029fd-1bde-493d-b116-d68b43f33825;
+  background-position: top;
+}
+.home20230123-container08 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
+  border-color: #828282;
+  border-style: groove;
+  border-width: 3px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgba(228, 225, 225, 0.81);
+}
+.home20230123-text28 {
+  display: none;
+  font-size: 2em;
+  font-family: "GFS Didot";
+  font-weight: bold;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home20230123-text29 {
+  display: none;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home20230123-text37 {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home20230123-btn-group2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+.home20230123-hero-button12 {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  transition: 0.3s;
+  font-family: "Montserrat";
+  background-color: rgba(20, 116, 135, 0);
+}
+.home20230123-hero-button12:hover {
+  color: #ffffff;
+  background-color: #437b41;
+}
+.home20230123-save-the-date-21 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home20230123-container09 {
+  width: 80%;
+  height: 120vh;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-size: cover;
+  background-image: 195de21a-095b-43b1-aa27-13a33b8f82ff;
+  background-position: top;
+}
+.home20230123-container10 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
+  border-color: #828282;
+  border-style: groove;
+  border-width: 3px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgba(228, 225, 225, 0.81);
+}
+.home20230123-text47 {
+  display: none;
+  font-size: 2em;
+  font-family: "GFS Didot";
+  font-weight: bold;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home20230123-text48 {
+  display: none;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home20230123-text56 {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home20230123-btn-group3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+.home20230123-hero-button13 {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  transition: 0.3s;
+  font-family: "Montserrat";
+  background-color: rgba(20, 116, 135, 0);
+}
+.home20230123-hero-button13:hover {
+  color: #ffffff;
+  background-color: #437b41;
 }
 @media(max-width: 991px) {
-  .home-container1 {
+  .home20230123-container01 {
     background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
   }
-  .home-container2 {
+  .home20230123-container02 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-hero-heading {
+  .home20230123-hero-heading {
     text-align: center;
   }
-  .home-hero-sub-heading {
+  .home20230123-hero-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .home-container3 {
+  .home20230123-container03 {
     width: 100%;
     align-items: center;
   }
-  .home-text18 {
-    font-size: 1em;
+  .home20230123-container07 {
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
   }
-  .home-hero-button11 {
-    font-size: 1em;
+  .home20230123-container08 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text31 {
-    font-size: 1em;
+  .home20230123-container09 {
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
   }
-  .home-hero-button12 {
-    font-size: 1em;
+  .home20230123-container10 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
-  .home-container1 {
+  .home20230123-container01 {
     background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
   }
-  .home-container2 {
+  .home20230123-container02 {
     height: auto;
     align-self: flex-end;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: var(--dl-space-space-sixunits);
   }
-  .home-hero-sub-heading {
+  .home20230123-hero-sub-heading {
     font-size: 1.5em;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .home-banner {
+  .home20230123-banner {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text05 {
+  .home20230123-text05 {
     font-size: 1.5em;
     font-family: Montserrat;
     font-weight: bold;
   }
-  .home-text06 {
+  .home20230123-text06 {
     display: none;
   }
-  .home-iframe {
+  .home20230123-iframe {
     display: none;
   }
-  .home-banner1 {
-    display: none;
+  .home20230123-banner1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-save-the-date-mobile {
-    display: flex;
-  }
-  .home-banner2 {
+  .home20230123-footer1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-footer1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .home-separator {
+  .home20230123-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container7 {
+  .home20230123-container06 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text39 {
+  .home20230123-text26 {
     font-size: 1em;
   }
-  .home-text40 {
+  .home20230123-text27 {
     display: none;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
+  .home20230123-container07 {
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
+  }
+  .home20230123-container08 {
+    height: auto;
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: var(--dl-space-space-sixunits);
+  }
+  .home20230123-container09 {
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
+  }
+  .home20230123-container10 {
+    height: auto;
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: var(--dl-space-space-sixunits);
+  }
 }
 @media(max-width: 479px) {
-  .home-container1 {
+  .home20230123-container01 {
     height: 100vh;
     background-size: cover;
     background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
     background-position: right;
   }
-  .home-container2 {
+  .home20230123-container02 {
     width: 100%;
     margin-bottom: var(--dl-space-space-unit);
     padding-bottom: 8em;
   }
-  .home-hero-heading {
+  .home20230123-hero-heading {
     font-size: 1.7em;
     max-width: 100%;
   }
-  .home-hero-sub-heading {
+  .home20230123-hero-sub-heading {
     font-size: 1.1em;
   }
-  .home-container4 {
+  .home20230123-container04 {
     width: 100%;
   }
-  .home-text {
+  .home20230123-text {
     width: auto;
     font-size: 1.75em;
     font-weight: bold;
   }
-  .home-container5 {
+  .home20230123-container05 {
     width: 100%;
     padding-top: var(--dl-space-space-threeunits);
   }
-  .home-text01 {
+  .home20230123-text01 {
     width: auto;
     font-size: 1.75em;
     font-weight: bold;
   }
-  .home-banner {
+  .home20230123-banner {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-text02 {
+  .home20230123-text02 {
     width: auto;
     font-size: 1.5em;
     font-weight: bold;
   }
-  .home-text05 {
+  .home20230123-text05 {
     width: auto;
     font-size: 1.2em;
     font-weight: bold;
   }
-  .home-text06 {
+  .home20230123-text06 {
     width: auto;
     font-size: 1.5em;
     font-weight: bold;
   }
-  .home-text07 {
+  .home20230123-text07 {
     width: auto;
     font-size: 1em;
     font-weight: bold;
     margin-bottom: 0px;
   }
-  .home-iframe {
+  .home20230123-iframe {
     display: none;
   }
-  .home-btn-group {
+  .home20230123-btn-group {
     flex-direction: column;
   }
-  .home-save-the-date {
-    position: relative;
-  }
-  .home-container6 {
-    flex: 1;
-    width: 90%;
-    height: calc(100vw * 4 / 3 * 0.9);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-  .home-banner1 {
+  .home20230123-banner1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-text13 {
+  .home20230123-text13 {
     width: auto;
     font-size: 1.5em;
     font-weight: bold;
   }
-  .home-text14 {
+  .home20230123-text14 {
     width: auto;
     font-size: 1em;
     font-weight: bold;
   }
-  .home-text18 {
+  .home20230123-text18 {
     width: auto;
     font-size: 1em;
   }
-  .home-btn-group1 {
+  .home20230123-btn-group1 {
     flex-direction: column;
   }
-  .home-banner2 {
-    width: 100%;
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .home-text26 {
-    width: auto;
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  .home-text27 {
-    width: auto;
-    font-size: 1em;
-    font-weight: bold;
-  }
-  .home-text31 {
-    width: auto;
-    font-size: 1em;
-  }
-  .home-btn-group2 {
-    flex-direction: column;
-  }
-  .home-hero-button12 {
-    color: rgb(0, 0, 0);
-    width: auto;
-    font-size: 1em;
-    font-family: Montserrat;
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    background-color: rgba(20, 116, 135, 0);
-  }
-  .home-footer1 {
+  .home20230123-footer1 {
     padding: var(--dl-space-space-unit);
   }
-  .home-separator {
+  .home20230123-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container7 {
+  .home20230123-container06 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text39 {
+  .home20230123-text26 {
     width: auto;
     font-size: 1em;
     font-weight: bold;
   }
-  .home-text40 {
+  .home20230123-text27 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home20230123-container07 {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
+    background-position: right;
+  }
+  .home20230123-container08 {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-unit);
+    padding-bottom: 8em;
+  }
+  .home20230123-text28 {
+    width: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .home20230123-text29 {
+    width: auto;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .home20230123-text37 {
+    width: auto;
+    font-size: 1em;
+  }
+  .home20230123-btn-group2 {
+    flex-direction: column;
+  }
+  .home20230123-container09 {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/external/ameya_gayatri_vertical-1500w.jpg");
+    background-position: right;
+  }
+  .home20230123-container10 {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-unit);
+    padding-bottom: 8em;
+  }
+  .home20230123-text47 {
+    width: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .home20230123-text48 {
+    width: auto;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .home20230123-text56 {
+    width: auto;
+    font-size: 1em;
+  }
+  .home20230123-btn-group3 {
+    flex-direction: column;
   }
 }

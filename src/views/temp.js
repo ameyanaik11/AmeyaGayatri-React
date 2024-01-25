@@ -37,18 +37,18 @@ const Temp = (props) => {
                   <br></br>
                 </span>
                 <EventNameAndTime
-                  Time="4"
-                  Event="foo"
+                  time="4"
+                  event="foo"
                   rootClassName="event-name-and-time-root-class-name3"
                 ></EventNameAndTime>
                 <EventNameAndTime
-                  Time="5"
-                  Event="engagement"
+                  time="5"
+                  event="engagement"
                   rootClassName="event-name-and-time-root-class-name4"
                 ></EventNameAndTime>
                 <EventNameAndTime
-                  Time="6"
-                  Event="bar"
+                  time="6"
+                  event="bar"
                   rootClassName="event-name-and-time-root-class-name5"
                 ></EventNameAndTime>
               </div>

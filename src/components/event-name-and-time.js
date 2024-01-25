@@ -11,28 +11,28 @@ const EventNameAndTime = (props) => {
     >
       <div className="event-name-and-time-container"></div>
       <div className="event-name-and-time-container1">
-        <span className="event-name-and-time-text">{props.Time}</span>
-        <span className="event-name-and-time-text1">{props.TimeUnit}</span>
+        <span className="event-name-and-time-text">{props.time}</span>
+        <span className="event-name-and-time-text1">{props.timeUnit}</span>
       </div>
       <div className="event-name-and-time-container2">
-        <span className="event-name-and-time-text2">{props.Event}</span>
+        <span className="event-name-and-time-text2">{props.event}</span>
       </div>
     </div>
   )
 }
 
 EventNameAndTime.defaultProps = {
-  Event: 'Wedding',
-  Time: '6',
+  event: 'Wedding',
+  time: '6',
   rootClassName: '',
-  TimeUnit: 'pm',
+  timeUnit: 'pm',
 }
 
 EventNameAndTime.propTypes = {
-  Event: PropTypes.string,
-  Time: PropTypes.string,
+  event: PropTypes.string,
+  time: PropTypes.string,
   rootClassName: PropTypes.string,
-  TimeUnit: PropTypes.string,
+  timeUnit: PropTypes.string,
 }
 
 export default EventNameAndTime
