@@ -116,9 +116,14 @@ const Home = (props) => {
             rootClassName="event-name-and-time-simple-root-class-name15"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
+            time="11:30 am"
+            event="Baraat"
+            rootClassName="event-name-and-time-simple-root-class-name10"
+          ></EventNameAndTimeSimple>
+          <EventNameAndTimeSimple
             time="12:15 pm"
             event="Bride in Doli"
-            rootClassName="event-name-and-time-simple-root-class-name10"
+            rootClassName="event-name-and-time-simple-root-class-name34"
           ></EventNameAndTimeSimple>
           <EventNameAndTimeSimple
             time="12:48 pm"
